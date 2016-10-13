@@ -1,0 +1,19 @@
+body {
+    background-image: url('img/brewery2-pattern.jpg');
+}
+
+#carousel {
+    position: relative;
+    width : 800px;
+    height: 600px;
+    margin: auto;
+}
+
+#carousel ul li {
+    position: absolute;
+    top : 50px;
+    left: 0;
+    list-style: none;
+}
+
+.carousel-nav { text-align: center; }
