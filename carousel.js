@@ -20,7 +20,7 @@ $(document).ready(function() {
     $.each( $img, function( i, val ) {
         $('.carousel-btn').append($('<button/>', {'id': i}).text(i+1));
     });
-    
+
     $('.carousel-btn button').button();
     $('.carousel-btn button').click(function(event) {
         event.preventDefault();
@@ -55,7 +55,7 @@ $(document).ready(function() {
         	$currentImg = $img.eq(i);
         	$currentImg.show();
         	slideImg(); // relance la fonction à la fin
-        }, 7000);       // intervalle (3s)
+        }, 7000);       // intervalle (7s)
     }
     slideImg(); // lance la fonction une 1ère fois
 });
